@@ -15,6 +15,9 @@ SASS Features:
 * Industry Approved
 * Large Community
 * Frameworks
+* More efficient workflowand cleaner than CSS
+* Smaller file sizes = optimized UX
+* Features like mixins, variables, extends, imports, etc.
 
 SASS example:
 ```sass
