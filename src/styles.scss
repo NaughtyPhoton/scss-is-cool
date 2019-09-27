@@ -1,0 +1,61 @@
+// VARIABLES
+/* Color Theme Swatches in Hex */
+$color1: #0568A6;
+$color2: #0578A6;
+$color3: #6FB1BF;
+$color4: #495931;
+$color5: #A66946;
+
+$font-stack: 'Andale Mono', monospace;
+$font-size: 14px;
+
+// MIXINS
+@mixin circleThing($rad, $height, $width, $bg, $color) {
+  -webkit-border-radius: $rad;
+  -moz-border-radius: $rad;
+  -ms-border-radius: $rad;
+  border-radius: $rad;
+
+  height: $height;
+  width: $width;
+
+  line-height: $height;
+  text-align: center;
+  background: $bg;
+  color: $color;
+  margin: 0 auto;
+}
+
+// STYLES
+body {
+  background: $color3;
+  color: darken($color5, 10);
+  font-family: $font-stack;
+  font-size: $font-size;
+}
+
+article {
+  background: white;
+  width: 760px;
+  margin: -60px auto 0;
+  padding: 40px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: -2;
+}
+
+header {
+  @include circleThing(100%, 200px, 200px, $color2, white);
+
+  h1 {
+    font-size: $font-size + 2;
+  }
+}
+
+footer {
+  @include circleThing(100%, 150px, 150px, $color5, white);
+  font-size: $font-size - 4;
+  margin-top: -60px;
+  position: relative;
+  z-index: -4;
+}
