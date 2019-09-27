@@ -3,8 +3,6 @@
 SASS stands for "Syntactically Awesome Style Sheets"
 Is a CSS preprocessor - it needs to be compiled to CSS.
 
-SCSS stands for "SASSY CSS".
-
 Converting CSS to SASS / SCSS:
 http://css2sass.herokuapp.com
 - - - -
@@ -27,6 +25,7 @@ SASS example:
     padding-right: 0
 ```
 _ _ _ _
+## SCSS stands for "SASSY CSS"
 SCSS Features:
 * All of that but in a more familiar CSS syntax
 * All valid CSS is valid SCSS
