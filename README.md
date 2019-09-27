@@ -7,7 +7,6 @@ Converting CSS to SASS / SCSS:
 http://css2sass.herokuapp.com
 - - - -
 SASS Features:
-* CSS Compatible
 * Feature Rich
 * Mature
 * Industry Approved
