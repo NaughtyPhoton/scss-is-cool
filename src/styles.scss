@@ -11,13 +11,25 @@ $font-size: 14px;
 
 // MIXINS
 @mixin circleThing($rad, $height, $width, $bg, $color) {
+  -webkit-border-radius: $rad;
+  -moz-border-radius: $rad;
+  -ms-border-radius: $rad;
+  border-radius: $rad;
 
+  height: $height;
+  width: $width;
+
+  line-height: $height;
+  text-align: center;
+  background: $bg;
+  color: $color;
+  margin: 0 auto;
 }
 
 // STYLES
 body {
   background: $color3;
-  color: darken($color5, 20);
+  color: darken($color5, 10);
   font-family: $font-stack;
   font-size: $font-size;
 }
@@ -31,5 +43,9 @@ article {
 }
 
 header {
+  @include circleThing(100%, 200px, 200px, $color2, white);
 
+  h1 {
+    font-size: $font-size + 2;
+  }
 }
