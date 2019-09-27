@@ -16,6 +16,7 @@ SASS Features:
 * Large Community
 * Frameworks
 
+SASS example:
 ```sass
 .fixed-table
   table-layout: fixed
@@ -27,6 +28,7 @@ SCSS Features:
 * All of that but in a more familiar CSS syntax
 * All valid CSS is valid SCSS
 
+SCSS example:
 ```scss
 .fixed-table {
    table-layout: fixed;
