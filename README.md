@@ -25,7 +25,7 @@ SASS example:
     padding-right: 0
 ```
 _ _ _ _
-## SCSS stands for "SASSY CSS"
+### SCSS stands for "SASSY CSS"
 SCSS Features:
 * All of that but in a more familiar CSS syntax
 * All valid CSS is valid SCSS
